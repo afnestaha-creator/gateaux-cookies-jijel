@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Gateaux Cookie - حلويات كوكي جيجل. صناعة كيكات المناسبات، الحلويات التقليدية والمملحات العصرية بأيدٍ خبيرة في ولاية جيجل، الجزائر.">
+    <meta name="theme-color" content="#1A1A1A">
+    <title>Gateaux Cookie "Jijel" | حلويات كوكي جيجل</title>
+
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%23FF91C1'/%3E%3Ccircle cx='9' cy='9.5' r='1.3' fill='%231A1A1A'/%3E%3Ccircle cx='15' cy='9' r='1.3' fill='%231A1A1A'/%3E%3Ccircle cx='12' cy='15' r='1.3' fill='%231A1A1A'/%3E%3C/svg%3E">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+
+    <a href="#main" class="skip-link">تخطي إلى المحتوى الرئيسي</a>
+
+    <!-- Navigation -->
+    <header class="nav-wrap" id="navWrap">
+        <nav class="nav-blur border-b border-white/5 py-3 px-6" id="siteNav" aria-label="القائمة الرئيسية">
+            <div class="max-w-7xl mx-auto flex justify-between items-center">
+                <a href="#home" class="flex items-center gap-3" aria-label="Gateaux Cookie - الرئيسية">
+                    <span class="w-12 h-12 rounded-full border-2 border-[#FF91C1]  bg-white overflow-hidden flex items-center justify-center flex-shrink-0">
+                        <img src="img/logo/1c0e1ae9-ea06-4fa4-af26-bf5e255d7178.png" alt="Gateaux Cookie Logo" class="w-full h-full object-cover rounded-full">
+                    </span>
+                    <span class="text-xl font-bold font-logo text-[#FF91C1]">Gateaux Cookie</span>
+                </a>
+
+                <div class="hidden md:flex gap-8 text-sm">
+                    <a href="#home" class="nav-link is-active" data-nav-link>الرئيسية</a>
+                    <a href="#services" class="nav-link" data-nav-link>خدماتنا</a>
+                    <a href="#gallery" class="nav-link" data-nav-link>معرض أعمالنا</a>
+                    <a href="#contact" class="nav-link" data-nav-link>اتصل بنا</a>
+                </div>
+
+                <div class="flex items-center gap-3">
+                    <a href="tel:+213559371525" class="btn-primary hidden sm:inline-flex px-6 py-2.5 rounded-full text-sm font-bold" style="box-shadow:none;">
+                        اطلب الآن
+                    </a>
+                    <button type="button" id="menuToggle" class="md:hidden p-2" aria-label="فتح القائمة" aria-expanded="false" aria-controls="mobileMenu">
+                        <span class="hamburger" id="hamburgerIcon"><span></span><span></span><span></span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <div id="mobileMenu" class="md:hidden nav-blur border-b border-white/5">
+            <div class="px-6 py-5 flex flex-col gap-1">
+                <a href="#home" class="nav-link py-3 border-b border-white/5">الرئيسية</a>
+                <a href="#services" class="nav-link py-3 border-b border-white/5">خدماتنا</a>
+                <a href="#gallery" class="nav-link py-3 border-b border-white/5">معرض أعمالنا</a>
+                <a href="#contact" class="nav-link py-3 border-b border-white/5">اتصل بنا</a>
+                <a href="tel:+213559371525" class="btn-primary px-6 py-3 rounded-full text-sm font-bold text-center mt-4">اطلب الآن</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+        <!-- Hero Section -->
+        <section id="home" class="relative min-h-[92vh] flex items-center justify-center pt-28 pb-16 overflow-hidden">
+            <div class="absolute inset-0 hero-pattern" aria-hidden="true"></div>
+            <div class="absolute inset-0 hero-glow" aria-hidden="true"></div>
+
+            <div class="max-w-5xl mx-auto px-6 text-center relative z-10 hero-in">
+                <span class="inline-block px-4 py-1.5 rounded-full bg-[#FF91C1]/10 text-[#FF91C1] text-xs font-bold mb-6 border border-[#FF91C1]/20">
+                    مرحباً بكم في ولاية جيجل
+                </span>
+                <h1 class="text-4xl sm:text-5xl md:text-7xl font-extrabold mb-6 leading-[1.15] md:leading-[1.08]">
+                    صناعة جميع أنواع <span class="text-[#FF91C1]">الحلويات والمملحات</span>
+                </h1>
+                <p class="text-gray-400 text-base sm:text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
+                    نقدم لكم تشكيلة فاخرة من الكيكات المخصصة حسب الطلب، الحلويات التقليدية والمملحات العصرية بأيدٍ خبيرة في قلب جيجل.
+                </p>
+
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <a href="https://wa.me/213559371525" target="_blank" rel="noopener" class="btn btn-primary w-full sm:w-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        راسلنا عبر واتساب
+                    </a>
+                    <a href="#gallery" class="btn btn-ghost w-full sm:w-auto">
+                        رؤية أعمالنا
+                    </a>
+                </div>
+            </div>
+
+            <div class="absolute top-1/3 right-10 float-anim hidden lg:block opacity-25" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="70" height="70" fill="none" stroke="#FF91C1" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2l1.4 2.8-1.4 1.4-1.4-1.4L12 2z"/>
+                    <path d="M4 21V12a8 8 0 0 1 16 0v9"/>
+                    <path d="M4 21h16"/>
+                    <path d="M4 16h16"/>
+                </svg>
+            </div>
+            <div class="absolute bottom-24 left-10 float-anim hidden lg:block opacity-20" style="animation-delay:1.6s" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="56" height="56" fill="none" stroke="#FF91C1" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="9"/>
+                    <circle cx="8.5" cy="10" r="1" fill="#FF91C1" stroke="none"/>
+                    <circle cx="15" cy="9" r="1" fill="#FF91C1" stroke="none"/>
+                    <circle cx="9" cy="15.5" r="1" fill="#FF91C1" stroke="none"/>
+                    <circle cx="14.5" cy="15" r="1" fill="#FF91C1" stroke="none"/>
+                </svg>
+            </div>
+        </section>
+
+        <!-- Quick Info -->
+        <section class="py-10 border-y border-white/5 bg-white/5 reveal">
+            <div class="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="text-[#FF91C1] font-bold text-2xl mb-1">48 ألف</div>
+                    <div class="text-gray-500 text-xs">متابع مخلص</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-[#FF91C1] font-bold text-2xl mb-1">مفتوح</div>
+                    <div class="text-gray-500 text-xs">نستقبل طلباتكم دائماً</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-[#FF91C1] font-bold text-2xl mb-1">جيجل</div>
+                    <div class="text-gray-500 text-xs">توصيل متوفر</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-[#FF91C1] font-bold text-2xl mb-1">4.9/5</div>
+                    <div class="text-gray-500 text-xs">تقييم الزبائن</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section id="services" class="py-20 md:py-28 px-6 max-w-7xl mx-auto">
+            <div class="text-center mb-14 md:mb-16 reveal">
+                <h2 class="text-3xl md:text-4xl font-extrabold mb-3">ماذا نقدم لكم؟</h2>
+                <p class="text-gray-400">نصنع كل قطعة بحب وإتقان</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+                <div class="service-card card-elevated p-8 md:p-10 rounded-3xl text-center reveal" style="--i:0">
+                    <div class="icon-wrap w-20 h-20 rounded-2xl mx-auto flex items-center justify-center mb-6 shadow-lg shadow-[#FF91C1]/15" style="background:linear-gradient(135deg,var(--pink),var(--pink-deep));">
+                        <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2l1.4 2.8-1.4 1.4-1.4-1.4L12 2z"/>
+                            <path d="M4 21V12a8 8 0 0 1 16 0v9"/>
+                            <path d="M4 21h16"/>
+                            <path d="M4 16h16"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">كيكات المناسبات</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">كيكات مخصصة لأعياد الميلاد، حفلات التخرج، والزفاف بتصاميم عصرية حسب اختياركم.</p>
+                </div>
+
+                <div class="service-card card-elevated p-8 md:p-10 rounded-3xl text-center reveal" style="--i:1">
+                    <div class="icon-wrap w-20 h-20 rounded-2xl mx-auto flex items-center justify-center mb-6 shadow-lg shadow-[#FF91C1]/15" style="background:linear-gradient(135deg,var(--pink),var(--pink-deep));">
+                        <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 12.5A9 9 0 1 1 11.5 3a7 7 0 0 0 9.5 9.5Z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">المملحات العصرية</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">تشكيلة واسعة من المملحات الفاخرة التي تزين موائدكم في جميع المناسبات والولائم.</p>
+                </div>
+
+                <div class="service-card card-elevated p-8 md:p-10 rounded-3xl text-center reveal" style="--i:2">
+                    <div class="icon-wrap w-20 h-20 rounded-2xl mx-auto flex items-center justify-center mb-6 shadow-lg shadow-[#FF91C1]/15" style="background:linear-gradient(135deg,var(--pink),var(--pink-deep));">
+                        <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="9"/>
+                            <circle cx="8.5" cy="10" r="1" fill="#fff" stroke="none"/>
+                            <circle cx="15" cy="9" r="1" fill="#fff" stroke="none"/>
+                            <circle cx="9" cy="15.5" r="1" fill="#fff" stroke="none"/>
+                            <circle cx="14.5" cy="15" r="1" fill="#fff" stroke="none"/>
+                            <circle cx="12" cy="12" r="1" fill="#fff" stroke="none"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">الحلويات التقليدية</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">أصالة المذاق الجزائري مع لمستنا الخاصة في صنع الحلويات التقليدية بنكهة لا تُنسى.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Gallery -->
+        <section id="gallery" class="py-20 md:py-28 bg-black/20">
+            <div class="max-w-6xl mx-auto px-6">
+                <div class="text-center mb-12 md:mb-16 reveal">
+                    <h2 class="text-3xl md:text-4xl font-extrabold mb-3">معرض أعمالنا</h2>
+                    <p class="text-gray-500">من مطبخنا إلى مائدتكم — اختر فئة لمشاهدة الأعمال</p>
+                </div>
+
+                <div id="portfolioGrid" class="grid grid-cols-2 gap-4 md:gap-7 max-w-4xl mx-auto">
+                    <!-- تُبنى البطاقات تلقائياً من galleryData في JavaScript -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Contact & Footer -->
+    <footer id="contact" class="pt-24 pb-10 border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-20">
+                <div>
+                    <h3 class="text-2xl font-bold font-logo text-[#FF91C1] mb-6">Gateaux Cookie</h3>
+                    <p class="text-gray-400 mb-8 leading-relaxed">متخصصون في صناعة أجود أنواع الحلويات والمملحات في ولاية جيجل. نضمن لكم الجودة والطعم الرفيع.</p>
+                    <div class="flex gap-4">
+                        <a href="https://facebook.com/share/1MRDprLAkj" target="_blank" rel="noopener" class="p-3 bg-white/5 rounded-full hover:bg-[#FF91C1]/20 transition-all" aria-label="فيسبوك">
+                            <svg class="w-5 h-5 text-[#FF91C1] fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                        <a href="https://www.instagram.com/gateaux_cookie?stkn=ODR2bDRpMTh0aGY5" target="_blank" rel="noopener" class="p-3 bg-white/5 rounded-full hover:bg-[#FF91C1]/20 transition-all" aria-label="انستغرام">
+                            <svg class="w-5 h-5 text-[#FF91C1] fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.012 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.012 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.012-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.054 1.805.249 2.227.412.558.216.96.474 1.38.893.42.42.677.82.893 1.38.164.422.359 1.057.412 2.227.055 1.265.07 1.648.07 4.85s-.015 3.585-.071 4.85c-.054 1.17-.249 1.805-.412 2.227-.216.558-.474.96-.893 1.38-.42.42-.82.677-1.38.893-.422.164-1.057.359-2.227.412-1.266.055-1.648.07-4.85.07s-3.585-.015-4.85-.071c-1.17-.054-1.805-.249-2.227-.412-.558-.216-.96-.474-1.38-.893-.42-.42-.677-.82-.893-1.38-.164-.422-.359-1.057-.412-2.227-.055-1.265-.07-1.648-.07-4.85s.015-3.585.071-4.85c.054-1.17.249-1.805.412-2.227.216-.558.474-.96.893-1.38.42-.42.82-.677 1.38-.893.422-.164 1.057-.359 2.227-.412 1.265-.055 1.648-.07 4.85-.071zM12 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16.02a3.858 3.858 0 110-7.716 3.858 3.858 0 010 7.716zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        </a>
+                        <a href="https://www.tiktok.com/@gateaux.cookie?_r=1&_t=ZS-99a7H2KjGhJ" target="_blank" rel="noopener" class="p-3 bg-white/5 rounded-full hover:bg-[#FF91C1]/20 transition-all" aria-label="تيك توك">
+                            <svg class="w-5 h-5 text-[#FF91C1] fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.59-5.71-.29-3.37 2.1-6.73 5.37-7.49.83-.2 1.68-.28 2.53-.18V9.75c-1.01-.13-2.04-.03-2.99.36-1.48.58-2.61 1.94-2.86 3.49-.12.83-.06 1.68.16 2.49.54 1.84 2.18 3.29 4.09 3.52 1.34.19 2.74-.11 3.85-.92.83-.58 1.44-1.44 1.71-2.43.14-.54.21-1.1.18-1.66V.02z"/></svg>
+                        </a>
+                    </div>
+                    
+                </div>
+
+                <div class="space-y-6">
+                    <h4 class="font-bold text-lg mb-4">معلومات الاتصال</h4>
+                    <div class="flex items-start gap-4 text-gray-400">
+                        <div class="p-2 bg-[#FF91C1]/10 rounded-lg text-[#FF91C1] flex-shrink-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        </div>
+                        <div>
+                            <p class="text-white font-bold">اتصل بنا مباشرة</p>
+                            <a href="tel:+213559371525" class="hover:text-[#FF91C1] transition-colors" dir="ltr">+0559 371 525</a>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4 text-gray-400">
+                        <div class="p-2 bg-[#FF91C1]/10 rounded-lg text-[#FF91C1] flex-shrink-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                        </div>
+                        <div>
+                            <p class="text-white font-bold">الموقع</p>
+                            <p>ولاية جيجل، الجزائر</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-lg mb-6">ساعات العمل</h4>
+                    <ul class="space-y-4 text-gray-400">
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pt-12 border-t border-white/5 text-center text-gray-600 text-sm">
+                &copy; <span id="year"></span> حلويات كوكي جيجل - جميع الحقوق محفوظة
+                <div class="mt-3 text-[#FF91C1]">Created by Afnes Taha</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Gallery Modal / Lightbox -->
+    <div id="galleryModal" class="modal-backdrop">
+        <div id="modalPanel" class="modal-panel relative max-w-3xl" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <div class="card-elevated rounded-[24px] overflow-hidden">
+                <div class="flex items-center justify-between px-5 sm:px-7 py-4 border-b border-white/5">
+                    <h3 id="modalTitle" class="font-bold text-lg text-white"></h3>
+                    <button type="button" id="modalCloseBtn" class="modal-close-btn" aria-label="إغلاق النافذة">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+                    </button>
+                </div>
+
+                <div id="modalImageWrap" class="relative bg-black/40 aspect-[4/5] sm:aspect-[16/10]">
+                    <img id="modalImage" src="" alt="" class="w-full h-full object-contain" loading="eager">
+                    <div id="modalImageFallback" class="hidden absolute inset-0 items-center justify-center bg-gradient-to-br from-[#FF91C1]/20 to-transparent" aria-hidden="true">
+                        <div class="text-center px-6">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="mx-auto mb-3 text-white/60"><path d="M4 16l4.5-6 3.5 4.5L15.5 9 20 16"/><rect x="3" y="4" width="18" height="16" rx="3"/></svg>
+                            <p id="modalFallbackText" class="text-white/60 text-sm font-bold"></p>
+                        </div>
+                    </div>
+
+                    <button type="button" id="modalPrevBtn" class="modal-nav-btn absolute top-1/2 -translate-y-1/2 right-3" aria-label="الصورة السابقة">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+                    </button>
+                    <button type="button" id="modalNextBtn" class="modal-nav-btn absolute top-1/2 -translate-y-1/2 left-3" aria-label="الصورة التالية">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg>
+                    </button>
+                </div>
+
+                <div class="flex items-center justify-between px-5 sm:px-7 py-4">
+                    <span id="modalCounter" class="text-xs text-gray-400 font-bold" dir="ltr"></span>
+                    <div id="modalDots" class="flex items-center gap-1.5"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="asset/main.js"></script>
+</body>
+</html>
