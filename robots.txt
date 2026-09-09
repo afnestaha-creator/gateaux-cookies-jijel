@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gateaux-cookies-jijel.vercel.app/sitemap.xml
